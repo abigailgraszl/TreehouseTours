@@ -4,12 +4,308 @@ body{
 }
 
 #wrap{
-	width: 90vw;
+	width: 1050px;
 	margin: 0 auto;
 }
 
 #topBar{
 	float: left;
-	width: 100%;
+	width: 77.9%;
+	height: 100px;
+	position: absolute;
+	z-index: 10;
+	background: black;
+	margin: 0px;
+	padding: 0px;
+}
+
+#logo{
+	position: relative;
+	top: 0px;
+	left: 0px;
+}
+
+#logoTree{
+	float: left;
+	position: absolute;
+	top: 30px;
+	left: 80px;
+	z-index: 12;
+}
+
+#white{
+	width: 200px;
+	height: 130px;
+	position: absolute;
+	top: 0px;
+	left: 55px;
+	z-index: 11;
+	background: white;
+	box-shadow: 3px 3px 5px gray;
+}
+
+#name{
+	position: absolute;
+	top: -25px;
+	left: 85px; 
+	color: black;
+	font-size: 30px;
+	font-family:'Patua One', cursive;
+	padding-top: 30px;
+	text-align: center;
+	z-index: 13;
+}
+
+#nameTop{
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	left: -10px;
+}
+
+#nameBottom{
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	top: -10px;
+	left: 25px;
+}
+
+#since{
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	top: -15px;
+	left: 25px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 20px;
+}
+
+nav{
 	height: 50px;
+	width: 400px;
+	position: absolute;
+	left: 275px;
+	top: 15px;
+}
+
+nav ul{
+	list-style: none;
+	padding: 0px;
+}
+
+nav ul li{
+	float: left;
+	color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+	padding: 15px;
+	font-size: 25px;
+}
+
+#contact{
+	position: absolute;
+	top: 47px;
+	right: 0px;
+	z-index: 14;
+	height: 50px;
+	width: 120px;
+	padding: 0px;
+	margin: 0px;
+}
+
+#contact p{
+	color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 25px;
+	padding: 0px;
+	margin: 0px;
+}
+
+#main{
+	position: absolute;
+	top: 50px;
+	width: 100%;
+	height: 600;
+	margin: 0px;
+
+}
+
+#mainImage{
+	position: absolute;
+	z-index: 1;
+	top: 50px;
+	margin: 0px;
+}
+
+#mainWords{
+	position: absolute;
+	z-index: 2;
+	top: 125px;
+	left: 40%;
+	font-family: 'Rock Salt', cursive;
+	font-size: 25px;
+	padding: 0px;
+	margin: 0px;
+}
+
+#mainTop{
+	position: relative;
+	padding: 0px;
+	margin: 0px;
+	left: -120px;
+}
+
+#mainBottom{
+	position: relative;
+	padding: 0px;
+	margin: 0px;
+	top: -25px;
+}
+
+#inspire{
+	position: absolute;
+	top: 720px;
+	margin: 0 auto;
+	width: 77.9%;
+	height: 50px;
+	background: black;
+}
+#inspire h3{
+	font-size: 35px;
+	font-family:'Patua One', cursive;
+	color: white;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+	position: relative;
+	top: 5px;
+
+}
+
+#gallery{
+	position: absolute;
+	top: 790px;
+	width: 77.9%;
+	height: 600px;
+	left: 265px;
+}
+
+#photo1{
+	float: left;
+	height: 250px;
+	width: 250px;
+	margin: 0 auto;
+	padding: 15px;
+}
+
+#photo2{
+	float: left;
+	height: 250px;
+	width: 250px;
+	margin: 0 auto;
+	padding: 15px;
+}
+
+#photo3{
+	float: left;
+	height: 250px;
+	width: 250px;
+	margin: 0 auto;
+	padding: 15px;
+}
+
+#photo4{
+	float: left;
+	height: 250px;
+	width: 250px;
+	margin: 0 auto;
+	padding: 15px;
+}
+
+#photo5{
+	float: left;
+	height: 250px;
+	width: 250px;
+	margin: 0 auto;
+	padding: 15px;
+}
+
+#photo6{
+	float: left;
+	height:250px;
+	width: 250px;
+	margin: 0 auto;
+	padding: 15px;
+}
+
+#footer{
+	position: absolute;
+	top: 1375px;
+	margin: 0 auto;
+	height: 150px;
+	width: 77.9%;
+	background: rgba(25, 25, 25, 1);
+}
+
+#navBar{
+	position: absolute;
+	top: 1375px;
+	height: 50px;
+	width: 77.9%;
+	background: black;
+	z-index: 12;
+	margin: 0 auto;
+
+
+}
+
+#navBar nav{
+	height: 50px;
+	width: 600px;
+	position: absolute;
+	left: 0px;
+	top: -20px;
+}
+
+#navBar nav ul{
+	list-style: none;
+	padding: 0px;
+}
+
+#navBar nav ul li{
+	float: left;
+	color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+	padding: 15px;
+	font-size: 20px;
+}
+
+#copy{
+	color: rgba(145, 145, 145, 1);
+	float: left;
+	font-family: 'Open Sans Condensed', sans-serif;
+	padding: 15px;
+	font-size: 20px;
+	position: absolute;
+	top: -23px;
+	left: 265px;
+}
+
+#contactFoot{
+	position: absolute;
+	top: 10px;
+	right: 0px;
+	z-index: 14;
+	height: 50px;
+	width: 120px;
+	padding: 0px;
+	margin: 0px;
+}
+
+#contactFoot p{
+	color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 20px;
+	padding: 0px;
+	margin: 0px;
 }
