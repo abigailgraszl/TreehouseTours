@@ -1,6 +1,9 @@
 $(document).ready(function(){
 
-	alert("Hello");
+	$("#photo1").hover(function(){
+		$("#cover1").slideUp();
+
+	});
 
 
 

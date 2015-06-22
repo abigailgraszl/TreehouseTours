@@ -238,6 +238,129 @@ nav ul li{
 	padding: 15px;
 }
 
+#covers{
+	position: absolute;
+	top: 790px;
+	width: 77.9%;
+	height: 600px;
+	left: 265px;
+	z-index: 12;
+	display: none;
+}
+
+#cover1{
+	background: rgba(47, 47, 47, .5);
+	float: left;
+	height: 250px;
+	width: 250px;
+	margin: 15px;
+}
+
+#cover1 p{
+	color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	position: relative;
+	top: 70px;
+}
+
+#cover2{
+	background: rgba(47, 47, 47, .5);
+	float: left;
+	height: 250px;
+	width: 250px;
+	margin: 15px;
+
+}
+
+#cover2 p{
+	color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	position: relative;
+	top: 70px;
+}
+
+#cover3{
+	background: rgba(47, 47, 47, .5);
+	float: left;
+	height: 250px;
+	width: 250px;
+	margin: 15px;
+
+}
+
+#cover3 p{
+	color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	position: relative;
+	top: 70px;
+}
+
+#cover4{
+	background: rgba(47, 47, 47, .5);
+	float: left;
+	height: 250px;
+	width: 250px;
+	margin: 15px;
+
+}
+
+#cover4 p{
+	color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	position: relative;
+	top: 70px;
+}
+
+#cover5{
+	background: rgba(47, 47, 47, .5);
+	float: left;
+	height: 250px;
+	width: 250px;
+	margin: 15px;
+
+}
+
+#cover5 p{
+	color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	position: relative;
+	top: 70px;
+}
+
+#cover6{
+	background: rgba(47, 47, 47, .5);
+	float: left;
+	height: 250px;
+	width: 250px;
+	margin: 15px;
+
+}
+
+#cover6 p{
+	color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	position: relative;
+	top: 70px;
+}
+
 #footer{
 	position: absolute;
 	top: 1375px;
@@ -308,4 +431,18 @@ nav ul li{
 	font-size: 20px;
 	padding: 0px;
 	margin: 0px;
+}
+
+li:hover{
+	color: blue;
+}
+#navBar li:hover{
+	color: blue;
+}
+
+#contactFoot p:hover{
+	color: blue;
+}
+#contact p:hover{
+	color: blue;
 }
