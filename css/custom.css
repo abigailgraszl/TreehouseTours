@@ -102,6 +102,11 @@ nav ul li{
 	font-size: 25px;
 }
 
+nav ul li a{
+	color: white;
+	text-decoration: none;
+}
+
 #contact{
 	position: absolute;
 	top: 47px;
@@ -188,6 +193,7 @@ nav ul li{
 	width: 77.9%;
 	height: 600px;
 	left: 265px;
+	z-index: 11;
 }
 
 #photo1{
@@ -245,7 +251,6 @@ nav ul li{
 	height: 600px;
 	left: 265px;
 	z-index: 12;
-	display: none;
 }
 
 #cover1{
@@ -254,6 +259,16 @@ nav ul li{
 	height: 250px;
 	width: 250px;
 	margin: 15px;
+	opacity: 0;
+}
+
+#cover1:hover{
+	background: rgba(47, 47, 47, .5);
+	float: left;
+	height: 250px;
+	width: 250px;
+	margin: 15px;
+	opacity: 1;
 }
 
 #cover1 p{
@@ -272,6 +287,17 @@ nav ul li{
 	height: 250px;
 	width: 250px;
 	margin: 15px;
+	opacity:0;
+
+}
+
+#cover2:hover{
+	background: rgba(47, 47, 47, .5);
+	float: left;
+	height: 250px;
+	width: 250px;
+	margin: 15px;
+	opacity:1;
 
 }
 
@@ -291,7 +317,16 @@ nav ul li{
 	height: 250px;
 	width: 250px;
 	margin: 15px;
+	opacity: 0;
+}
 
+#cover3:hover{
+	background: rgba(47, 47, 47, .5);
+	float: left;
+	height: 250px;
+	width: 250px;
+	margin: 15px;
+	opacity: 1;
 }
 
 #cover3 p{
@@ -310,6 +345,17 @@ nav ul li{
 	height: 250px;
 	width: 250px;
 	margin: 15px;
+	opacity: 0;
+
+}
+
+#cover4:hover{
+	background: rgba(47, 47, 47, .5);
+	float: left;
+	height: 250px;
+	width: 250px;
+	margin: 15px;
+	opacity: 1;
 
 }
 
@@ -329,7 +375,16 @@ nav ul li{
 	height: 250px;
 	width: 250px;
 	margin: 15px;
+	opacity: 0;
+}
 
+#cover5:hover{
+	background: rgba(47, 47, 47, .5);
+	float: left;
+	height: 250px;
+	width: 250px;
+	margin: 15px;
+	opacity: 1;
 }
 
 #cover5 p{
@@ -348,6 +403,17 @@ nav ul li{
 	height: 250px;
 	width: 250px;
 	margin: 15px;
+	opacity: 0;
+
+}
+
+#cover6:hover{
+	background: rgba(47, 47, 47, .5);
+	float: left;
+	height: 250px;
+	width: 250px;
+	margin: 15px;
+	opacity: 1;
 
 }
 
@@ -433,7 +499,7 @@ nav ul li{
 	margin: 0px;
 }
 
-li:hover{
+li a:hover{
 	color: blue;
 }
 #navBar li:hover{
@@ -445,4 +511,413 @@ li:hover{
 }
 #contact p:hover{
 	color: blue;
+}
+
+
+/*Treehouses*/
+#treeWords{
+	position: absolute;
+	top: 175px;
+	margin: 0 auto;
+	width: 77.9%;
+	height: 50px;
+}
+
+#treeWords h2{
+	font-size: 50px;
+	font-family:'Patua One', cursive;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+	position: relative;
+	top: 5px;
+}
+
+#treeWords p{
+	font-size: 35px;
+	font-family:'Open Sans Condensed', sans-serif;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+	position: relative;
+	top: 5px;
+}
+
+#houseHolder{
+	position: absolute;
+	top: 340px;
+	width: 30%;
+	height: 600px;
+	left: 495px;
+	z-index: 11;
+}
+
+#tree1{
+	float: left;
+	height: 150px;
+	width: 150px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+#tree2{
+	float: left;
+	height: 150px;
+	width: 150px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+#tree3{
+	float: left;
+	height: 150px;
+	width: 150px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+#tree4{
+	float: left;
+	height: 150px;
+	width: 150px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+#tree5{
+	float: left;
+	height: 150px;
+	width: 150px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+#tree6{
+	float: left;
+	height:150px;
+	width: 150px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+#tree7{
+	float: left;
+	height:150px;
+	width: 150px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+#tree8{
+	float: left;
+	height:150px;
+	width: 150px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+#box1{
+	height: 450px;
+	width: 300px;
+	z-index: 20;
+	position: absolute;
+	top: 270px; 
+	box-shadow: 3px 3px 5px gray;
+	display: none;
+}
+
+#box1 h4{
+	float: left;
+	font-size: 35px;
+	font-family:'Patua One', cursive;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+}
+
+#box1 p{
+	float: left;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 25px;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+#box2{
+	height: 450px;
+	width: 300px;
+	z-index: 20;
+	position: absolute;
+	top: 270px; 
+	right: 140px;
+	box-shadow: 3px 3px 5px gray;
+	display: none;
+}
+
+#box2 h4{
+	float: left;
+	font-size: 35px;
+	font-family:'Patua One', cursive;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+}
+
+#box2 p{
+	float: left;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 25px;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	width: 300px;
+}
+
+#box3{
+	height: 450px;
+	width: 300px;
+	z-index: 20;
+	position: absolute;
+	top: 340px; 
+	box-shadow: 3px 3px 5px gray;
+	display: none;
+}
+
+#box3 h4{
+	float: left;
+	font-size: 35px;
+	font-family:'Patua One', cursive;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+}
+
+#box3 p{
+	float: left;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 25px;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+#box4{
+	height: 450px;
+	width: 300px;
+	z-index: 20;
+	position: absolute;
+	top: 340px; 
+	right: 140px;
+	box-shadow: 3px 3px 5px gray;
+	display: none;
+}
+
+#box4 h4{
+	float: left;
+	font-size: 35px;
+	font-family:'Patua One', cursive;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+}
+
+#box4 p{
+	float: left;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 25px;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+#box5{
+	height: 450px;
+	width: 300px;
+	z-index: 20;
+	position: absolute;
+	top: 500px; 
+	display: none;
+	box-shadow: 3px 3px 5px gray;
+
+}
+
+#box5 h4{
+	float: left;
+	font-size: 35px;
+	font-family:'Patua One', cursive;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+}
+
+#box5 p{
+	float: left;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 25px;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+#box6{
+	height: 600px;
+	width: 300px;
+	z-index: 20;
+	position: absolute;
+	top: 500px; 
+	right: 140px;
+	display: none;
+	box-shadow: 3px 3px 5px gray;
+
+}
+
+#box6 h4{
+	float: left;
+	font-size: 35px;
+	font-family:'Patua One', cursive;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+}
+
+#box6 p{
+	float: left;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 25px;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+#box7{
+	height: 450px;
+	width: 300px;
+	z-index: 20;
+	position: absolute;
+	top: 650px; 
+	display: none;
+	box-shadow: 3px 3px 5px gray;
+
+}
+
+#box7 h4{
+	float: left;
+	font-size: 35px;
+	font-family:'Patua One', cursive;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+}
+
+#box7 p{
+	float: left;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 25px;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+#box8{
+	height: 450px;
+	width: 300px;
+	z-index: 20;
+	position: absolute;
+	top: 650px; 
+	right: 140px;
+	display: none;
+	box-shadow: 3px 3px 5px gray;
+
+}
+
+#box8 h4{
+	float: left;
+	font-size: 35px;
+	font-family:'Patua One', cursive;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+}
+
+#box8 p{
+	float: left;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 25px;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+
+#footerTree{
+	position: absolute;
+	top: 1100px;
+	margin: 0 auto;
+	height: 150px;
+	width: 77.9%;
+	background: rgba(25, 25, 25, 1);
+}
+
+#navBarTree{
+	position: absolute;
+	top: 1100px;
+	height: 50px;
+	width: 77.9%;
+	background: black;
+	z-index: 12;
+	margin: 0 auto;
+
+
+}
+
+#navBarTree nav{
+	height: 50px;
+	width: 600px;
+	position: absolute;
+	left: 0px;
+	top: -20px;
+}
+
+#navBarTree nav ul{
+	list-style: none;
+	padding: 0px;
+}
+
+#navBarTree nav ul li{
+	float: left;
+	color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+	padding: 15px;
+	font-size: 20px;
+}
+
+#copy{
+	color: rgba(145, 145, 145, 1);
+	float: left;
+	font-family: 'Open Sans Condensed', sans-serif;
+	padding: 15px;
+	font-size: 20px;
+	position: absolute;
+	top: -23px;
+	left: 265px;
+}
+
+#contactFoot{
+	position: absolute;
+	top: 10px;
+	right: 0px;
+	z-index: 14;
+	height: 50px;
+	width: 120px;
+	padding: 0px;
+	margin: 0px;
+}
+
+#contactFoot p{
+	color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 20px;
+	padding: 0px;
+	margin: 0px;
 }
