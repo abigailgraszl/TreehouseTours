@@ -517,7 +517,7 @@ li a:hover{
 /*Treehouses*/
 #treeWords{
 	position: absolute;
-	top: 175px;
+	top: 160px;
 	margin: 0 auto;
 	width: 77.9%;
 	height: 50px;
@@ -526,6 +526,7 @@ li a:hover{
 #treeWords h2{
 	font-size: 50px;
 	font-family:'Patua One', cursive;
+	color: green;
 	padding: 0px;
 	margin: 0px;
 	text-align: center;
@@ -761,7 +762,7 @@ li a:hover{
 }
 
 #box6{
-	height: 600px;
+	height: 450px;
 	width: 300px;
 	z-index: 20;
 	position: absolute;
@@ -795,7 +796,7 @@ li a:hover{
 	width: 300px;
 	z-index: 20;
 	position: absolute;
-	top: 650px; 
+	top: 620px; 
 	display: none;
 	box-shadow: 3px 3px 5px gray;
 
@@ -824,7 +825,7 @@ li a:hover{
 	width: 300px;
 	z-index: 20;
 	position: absolute;
-	top: 650px; 
+	top: 620px; 
 	right: 140px;
 	display: none;
 	box-shadow: 3px 3px 5px gray;
@@ -920,4 +921,421 @@ li a:hover{
 	font-size: 20px;
 	padding: 0px;
 	margin: 0px;
+}
+
+
+/*Find*/
+#findMain{
+	position: absolute;
+	top: 160px;
+	margin: 0 auto;
+	width: 77.9%;
+	height: 50px;
+}
+
+#findMain h2{
+	font-size: 50px;
+	font-family:'Patua One', cursive;
+	color: green;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+	position: relative;
+	top: 5px;
+}
+
+#where{
+	position: absolute;
+	top: 80px;
+	margin: 0 auto;
+	width: 100%;
+	height: 50px;
+}
+
+#where p{
+	font-size: 35px;
+	font-family:'Open Sans Condensed', sans-serif;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+	float: left;
+	width: 100%;
+}
+
+select{
+	float: left;
+	height: 50px;
+	width: 150px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 25px;
+	border-radius: 5px;
+	margin-left: 43%;
+	margin-top: 20px;
+
+}
+
+
+#comfort{
+	position: absolute;
+	top: 210px;
+	margin: 0 auto;
+	width: 100%;
+	height: 50px;
+}
+
+#comfort p{
+	font-size: 35px;
+	font-family:'Open Sans Condensed', sans-serif;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+	float: left;
+	width: 100%;
+}
+
+select{
+	float: left;
+	height: 50px;
+	width: 150px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 25px;
+	border-radius: 5px;
+	margin-left: 43%;
+	margin-top: 20px;
+
+}
+
+button{
+	position: absolute;
+	top: 375px;
+	margin: 0 auto;
+	width: 300px;
+	height: 50px;
+	margin-left: 36%;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 30px;
+	border-radius: 5px;
+}
+
+#result1{
+	height: 450px;
+	width: 300px;
+	z-index: 20;
+	position: absolute;
+	top: 450px;
+	display: none; 
+	
+}
+
+#result1 h4{
+	float: left;
+	font-size: 35px;
+	font-family:'Patua One', cursive;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+}
+
+#result1 p{
+	float: left;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 25px;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+#result2{
+	height: 450px;
+	width: 300px;
+	z-index: 20;
+	position: absolute;
+	top: 450px;
+	display: none; 
+}
+
+#result2 h4{
+	float: left;
+	font-size: 35px;
+	font-family:'Patua One', cursive;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+}
+
+#result2 p{
+	float: left;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 25px;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	width: 300px;
+}
+
+#result3{
+	height: 450px;
+	width: 300px;
+	z-index: 20;
+	position: absolute;
+	top: 450px;
+	display: none; 
+}
+
+#result3 h4{
+	float: left;
+	font-size: 35px;
+	font-family:'Patua One', cursive;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+}
+
+#result3 p{
+	float: left;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 25px;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+#result4{
+	height: 450px;
+	width: 300px;
+	z-index: 20;
+	position: absolute;
+	top: 340px; 
+	top: 450px;
+	display: none; 
+}
+
+#result4 h4{
+	float: left;
+	font-size: 35px;
+	font-family:'Patua One', cursive;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+}
+
+#result4 p{
+	float: left;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 25px;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+#result5{
+	height: 450px;
+	width: 300px;
+	z-index: 20;
+	position: absolute;
+	top: 450px;
+	display: none; 
+
+}
+
+#result5 h4{
+	float: left;
+	font-size: 35px;
+	font-family:'Patua One', cursive;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+}
+
+#result5 p{
+	float: left;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 25px;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+#result6{
+	height: 450px;
+	width: 300px;
+	z-index: 20;
+	position: absolute;
+	top: 450px;
+	display: none; 
+
+}
+
+#result6 h4{
+	float: left;
+	font-size: 35px;
+	font-family:'Patua One', cursive;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+}
+
+#result6 p{
+	float: left;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 25px;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+#result7{
+	height: 450px;
+	width: 300px;
+	z-index: 20;
+	position: absolute;
+	top: 450px;
+	display: none; 
+
+}
+
+#result7 h4{
+	float: left;
+	font-size: 35px;
+	font-family:'Patua One', cursive;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+}
+
+#result7 p{
+	float: left;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 25px;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+#result8{
+	height: 450px;
+	width: 300px;
+	z-index: 20;
+	position: absolute;
+	top: 450px;
+	display: none; 
+
+}
+
+#result8 h4{
+	float: left;
+	font-size: 35px;
+	font-family:'Patua One', cursive;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+}
+
+#result8 p{
+	float: left;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 25px;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+/*Activity*/
+
+#activityPics{
+	position: absolute;
+	top: 280px;
+	width: 77.9%;
+	height: 600px;
+	z-index: 11;
+}
+
+#Do1{
+	float: left;
+	height: 300px;
+	width: 414px;
+	margin: 0 auto;
+	padding: 5px;
+}
+
+#Do2{
+	float: left;
+	height: 300px;
+	width: 616px;
+	margin: 0 auto;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-top: 5px;
+}
+
+#Do3{
+	float: left;
+	height: 300px;
+	width: 590px;
+	margin: 0 auto;
+	padding: 5px;
+}
+
+#Do4{
+	float: left;
+	height: 300px;
+	width: 440px;
+	margin: 0 auto;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-top: 5px;
+}
+
+#actWords{
+	position: absolute;
+	top: 280px;
+	width: 77.9%;
+	height: 600px;
+	z-index: 12;
+}
+
+#top1{
+	float: left;
+	height: 300px;
+	width: 414px;
+	margin: 0 auto;
+	padding: 5px;
+}
+
+#top2{
+	float: left;
+	height: 300px;
+	width: 616px;
+	margin: 0 auto;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-top: 5px;
+}
+
+#top3{
+	float: left;
+	height: 300px;
+	width: 590px;
+	margin: 0 auto;
+	padding: 5px;
+}
+
+#top4{
+	float: left;
+	height: 300px;
+	width: 440px;
+	margin: 0 auto;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-top: 5px;
+}
+
+#actWords p {
+	color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 75px;
+	font-weight: bold;
+	position: relative;
+	top: 130px;
+	left: 25px;
 }
