@@ -1017,13 +1017,25 @@ button{
 	border-radius: 5px;
 }
 
+#output{
+	height: 450px;
+	width: 77.6%;
+	z-index: 20;
+	position: absolute;
+	top: 450px;
+	margin-left: 225px;
+}
+
+
 #result1{
 	height: 450px;
 	width: 300px;
 	z-index: 20;
-	position: absolute;
-	top: 450px;
-	display: none; 
+	margin: 10px;
+	float: left;
+	/*position: absolute;
+	top: 450px;*/
+	/*display: none; */
 	
 }
 
@@ -1049,9 +1061,9 @@ button{
 	height: 450px;
 	width: 300px;
 	z-index: 20;
-	position: absolute;
-	top: 450px;
-	display: none; 
+	margin: 10px;
+	float: left;
+	/*display: none; */
 }
 
 #result2 h4{
@@ -1077,9 +1089,8 @@ button{
 	height: 450px;
 	width: 300px;
 	z-index: 20;
-	position: absolute;
-	top: 450px;
-	display: none; 
+	margin: 10px;
+	float: left;
 }
 
 #result3 h4{
@@ -1104,10 +1115,8 @@ button{
 	height: 450px;
 	width: 300px;
 	z-index: 20;
-	position: absolute;
-	top: 340px; 
-	top: 450px;
-	display: none; 
+	margin: 10px;
+	float: left;
 }
 
 #result4 h4{
@@ -1132,9 +1141,8 @@ button{
 	height: 450px;
 	width: 300px;
 	z-index: 20;
-	position: absolute;
-	top: 450px;
-	display: none; 
+	margin: 10px;
+	float: left;
 
 }
 
@@ -1160,9 +1168,8 @@ button{
 	height: 450px;
 	width: 300px;
 	z-index: 20;
-	position: absolute;
-	top: 450px;
-	display: none; 
+	margin: 10px;
+	float: left;
 
 }
 
@@ -1188,9 +1195,8 @@ button{
 	height: 450px;
 	width: 300px;
 	z-index: 20;
-	position: absolute;
-	top: 450px;
-	display: none; 
+	margin: 10px;
+	float: left;
 
 }
 
@@ -1216,9 +1222,8 @@ button{
 	height: 450px;
 	width: 300px;
 	z-index: 20;
-	position: absolute;
-	top: 450px;
-	display: none; 
+	margin: 10px;
+	float: left;
 
 }
 
@@ -1271,7 +1276,7 @@ button{
 #Do3{
 	float: left;
 	height: 300px;
-	width: 590px;
+	width: 560px;
 	margin: 0 auto;
 	padding: 5px;
 }
@@ -1279,7 +1284,7 @@ button{
 #Do4{
 	float: left;
 	height: 300px;
-	width: 440px;
+	width: 470px;
 	margin: 0 auto;
 	padding-bottom: 5px;
 	padding-left: 5px;
