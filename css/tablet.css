@@ -1,17 +1,18 @@
 body{
 	margin: 0px;
 	padding: 0px;
+	overflow-x: hidden;
 }
 
 #wrap{
-	width: 1050px;
+	width: 960px;
 	margin: 0 auto;
 }
 
 #topBar{
 	float: left;
-	width: 77.9%;
-	height: 100px;
+	width: 100vw;
+	height: 130px;
 	position: absolute;
 	z-index: 10;
 	background: black;
@@ -23,13 +24,14 @@ body{
 	position: relative;
 	top: 0px;
 	left: 0px;
+	float: left;
 }
 
 #logoTree{
 	float: left;
 	position: absolute;
 	top: 30px;
-	left: 80px;
+	left: 25px;
 	z-index: 12;
 }
 
@@ -38,7 +40,7 @@ body{
 	height: 130px;
 	position: absolute;
 	top: 0px;
-	left: 55px;
+	left: 0px;
 	z-index: 11;
 	background: white;
 	box-shadow: 3px 3px 5px gray;
@@ -47,7 +49,7 @@ body{
 #name{
 	position: absolute;
 	top: -25px;
-	left: 85px; 
+	left: 30px; 
 	color: black;
 	font-size: 30px;
 	font-family:'Patua One', cursive;
@@ -83,23 +85,34 @@ body{
 
 nav{
 	height: 50px;
-	width: 400px;
+	width: 100vw;
 	position: absolute;
-	left: 275px;
-	top: 15px;
+	left: 0px;
+	top: 130px;
 }
 
 nav ul{
 	list-style: none;
 	padding: 0px;
+	position: relative;
+	top: 0px;
+	left: 0px;
 }
 
 nav ul li{
+	position: relative;
+	top: -18px;
+	left: 1px;
 	float: left;
 	color: white;
 	font-family: 'Open Sans Condensed', sans-serif;
-	padding: 15px;
-	font-size: 25px;
+	/*padding-left: 20px;
+	padding-right: 20px;*/
+	padding: 20px;
+	font-size: 30px;
+	width: 100vw;
+	text-align: center;
+	background: rgba(1, 1, 1, .8);
 }
 
 nav ul li a{
@@ -110,7 +123,7 @@ nav ul li a{
 #contact{
 	position: absolute;
 	top: 47px;
-	right: 0px;
+	right: 50px;
 	z-index: 14;
 	height: 50px;
 	width: 120px;
@@ -121,15 +134,15 @@ nav ul li a{
 #contact p{
 	color: white;
 	font-family: 'Open Sans Condensed', sans-serif;
-	font-size: 25px;
+	font-size: 30px;
 	padding: 0px;
 	margin: 0px;
 }
 
 #main{
-	position: relative;
-	top: 50px;
-	width: 100%;
+	position: absolute;
+	top: 320px;
+	width: 100vw;
 	height: 600;
 	margin: 0px;
 
@@ -140,7 +153,7 @@ nav ul li a{
 	z-index: 1;
 	top: 50px;
 	margin: 0px;
-	width: 100%;
+	width: 100vw;
 	height: 600px;
 }
 
@@ -153,9 +166,9 @@ nav ul li a{
 	position: absolute;
 	z-index: 2;
 	top: 125px;
-	left: 40%;
+	left: 55%;
 	font-family: 'Rock Salt', cursive;
-	font-size: 25px;
+	font-size: 22px;
 	padding: 0px;
 	margin: 0px;
 }
@@ -164,7 +177,7 @@ nav ul li a{
 	position: relative;
 	padding: 0px;
 	margin: 0px;
-	left: -120px;
+	left: -90px;
 }
 
 #mainBottom{
@@ -176,9 +189,9 @@ nav ul li a{
 
 #inspire{
 	position: absolute;
-	top: 720px;
+	top: 990px;
 	margin: 0 auto;
-	width: 77.9%;
+	width: 100vw;
 	height: 50px;
 	background: black;
 }
@@ -196,85 +209,90 @@ nav ul li a{
 
 #gallery{
 	position: absolute;
-	top: 790px;
-	width: 77.9%;
+	top: 1050px;
+	width: 50vw;
 	height: 600px;
-	left: 265px;
+	left: 28%;
 	z-index: 11;
+}
+
+#gallery img{
+	height: 100%;
+	width: 100%;
 }
 
 #photo1{
 	float: left;
-	height: 250px;
-	width: 250px;
+	height: 200px;
+	width: 200px;
 	margin: 0 auto;
-	padding: 15px;
+	/*padding: 15px;*/
 }
 
 #photo2{
 	float: left;
-	height: 250px;
-	width: 250px;
+	height: 200px;
+	width: 200px;
 	margin: 0 auto;
-	padding: 15px;
+	/*padding: 15px;*/
 }
 
 #photo3{
 	float: left;
-	height: 250px;
-	width: 250px;
+	height: 200px;
+	width: 200px;
 	margin: 0 auto;
-	padding: 15px;
+	/*padding: 15px;*/
 }
 
 #photo4{
 	float: left;
-	height: 250px;
-	width: 250px;
+	height: 200px;
+	width: 200px;
 	margin: 0 auto;
-	padding: 15px;
+	/*padding: 15px;*/
 }
 
 #photo5{
 	float: left;
-	height: 250px;
-	width: 250px;
+	height: 200px;
+	width: 200px;
 	margin: 0 auto;
-	padding: 15px;
+	/*padding: 15px;*/
 }
 
 #photo6{
 	float: left;
-	height:250px;
-	width: 250px;
+	height:200px;
+	width: 200px;
 	margin: 0 auto;
-	padding: 15px;
+	/*padding: 15px;*/
 }
 
 #covers{
 	position: absolute;
-	top: 790px;
-	width: 77.9%;
+	top: 1050px;
+	width: 50vw;
 	height: 600px;
-	left: 265px;
+	left: 28%;
 	z-index: 12;
 }
 
 #cover1{
 	background: rgba(47, 47, 47, .5);
 	float: left;
-	height: 250px;
-	width: 250px;
-	margin: 15px;
+	height: 200px;
+	width: 200px;
+	/*margin: 15px;*/
 	opacity: 0;
 }
 
 #cover1:hover{
 	background: rgba(47, 47, 47, .5);
 	float: left;
-	height: 250px;
-	width: 250px;
-	margin: 15px;
+	height: 200px;
+	width: 200px;
+	/*margin: 15px;*/
 	opacity: 1;
 }
 
@@ -291,9 +309,9 @@ nav ul li a{
 #cover2{
 	background: rgba(47, 47, 47, .5);
 	float: left;
-	height: 250px;
-	width: 250px;
-	margin: 15px;
+	height: 200px;
+	width: 200px;
+	/*margin: 15px;*/
 	opacity:0;
 
 }
@@ -301,9 +319,9 @@ nav ul li a{
 #cover2:hover{
 	background: rgba(47, 47, 47, .5);
 	float: left;
-	height: 250px;
-	width: 250px;
-	margin: 15px;
+	height: 200px;
+	width: 200px;
+/*	margin: 15px;*/
 	opacity:1;
 
 }
@@ -321,18 +339,18 @@ nav ul li a{
 #cover3{
 	background: rgba(47, 47, 47, .5);
 	float: left;
-	height: 250px;
-	width: 250px;
-	margin: 15px;
+	height: 200px;
+	width: 200px;
+	/*margin: 15px;*/
 	opacity: 0;
 }
 
 #cover3:hover{
 	background: rgba(47, 47, 47, .5);
 	float: left;
-	height: 250px;
-	width: 250px;
-	margin: 15px;
+	height: 200px;
+	width: 200px;
+/*	margin: 15px;*/
 	opacity: 1;
 }
 
@@ -349,9 +367,9 @@ nav ul li a{
 #cover4{
 	background: rgba(47, 47, 47, .5);
 	float: left;
-	height: 250px;
-	width: 250px;
-	margin: 15px;
+	height: 200px;
+	width: 200px;
+	/*margin: 15px;*/
 	opacity: 0;
 
 }
@@ -359,9 +377,9 @@ nav ul li a{
 #cover4:hover{
 	background: rgba(47, 47, 47, .5);
 	float: left;
-	height: 250px;
-	width: 250px;
-	margin: 15px;
+	height: 200px;
+	width: 200px;
+	/*margin: 15px;*/
 	opacity: 1;
 
 }
@@ -379,18 +397,18 @@ nav ul li a{
 #cover5{
 	background: rgba(47, 47, 47, .5);
 	float: left;
-	height: 250px;
-	width: 250px;
-	margin: 15px;
+	height: 200px;
+	width: 200px;
+	/*margin: 15px;*/
 	opacity: 0;
 }
 
 #cover5:hover{
 	background: rgba(47, 47, 47, .5);
 	float: left;
-	height: 250px;
-	width: 250px;
-	margin: 15px;
+	height: 200px;
+	width: 200px;
+	/*margin: 15px;*/
 	opacity: 1;
 }
 
@@ -407,9 +425,9 @@ nav ul li a{
 #cover6{
 	background: rgba(47, 47, 47, .5);
 	float: left;
-	height: 250px;
-	width: 250px;
-	margin: 15px;
+	height: 200px;
+	width: 200px;
+	/*margin: 15px;*/
 	opacity: 0;
 
 }
@@ -417,9 +435,9 @@ nav ul li a{
 #cover6:hover{
 	background: rgba(47, 47, 47, .5);
 	float: left;
-	height: 250px;
-	width: 250px;
-	margin: 15px;
+	height: 200px;
+	width: 200px;
+	/*margin: 15px;*/
 	opacity: 1;
 
 }
@@ -436,18 +454,18 @@ nav ul li a{
 
 #footer{
 	position: absolute;
-	top: 1375px;
+	top: 1700px;
 	margin: 0 auto;
 	height: 150px;
-	width: 77.9%;
+	width: 100vw;
 	background: rgba(25, 25, 25, 1);
 }
 
 #navBar{
 	position: absolute;
-	top: 1375px;
+	top: 1700px;
 	height: 50px;
-	width: 77.9%;
+	width: 100vw;
 	background: black;
 	z-index: 12;
 	margin: 0 auto;
@@ -457,10 +475,10 @@ nav ul li a{
 
 #navBar nav{
 	height: 50px;
-	width: 600px;
+	width: 100vw;
 	position: absolute;
 	left: 0px;
-	top: -20px;
+	top: -7px;
 }
 
 #navBar nav ul{
@@ -484,7 +502,7 @@ nav ul li a{
 	font-size: 20px;
 	position: absolute;
 	top: -23px;
-	left: 265px;
+	left: 465px;
 }
 
 #contactFoot{
@@ -496,6 +514,7 @@ nav ul li a{
 	width: 120px;
 	padding: 0px;
 	margin: 0px;
+	display: none;
 }
 
 #contactFoot p{
@@ -504,6 +523,7 @@ nav ul li a{
 	font-size: 20px;
 	padding: 0px;
 	margin: 0px;
+	display: none;
 }
 
 li a:hover{
@@ -511,6 +531,10 @@ li a:hover{
 }
 #navBar li:hover{
 	color: blue;
+}
+
+#navBar nav ul li{
+	width: 26vw;
 }
 
 #contactFoot p:hover{
@@ -524,7 +548,8 @@ li a:hover{
 /*Treehouses*/
 #treeWords{
 	position: absolute;
-	top: 160px;
+	top: 360px;
+	left: 50px;
 	margin: 0 auto;
 	width: 77.9%;
 	height: 50px;
@@ -553,11 +578,12 @@ li a:hover{
 
 #houseHolder{
 	position: absolute;
-	top: 340px;
+	top: 600px;
 	width: 30%;
 	height: 600px;
-	left: 495px;
+	left: 100px;
 	z-index: 11;
+	display: none;
 }
 
 #tree1{
@@ -627,11 +653,11 @@ li a:hover{
 #box1{
 	height: 450px;
 	width: 300px;
-	z-index: 20;
 	position: absolute;
-	top: 270px; 
+	top: 600px;
+	left: 80px;
+	padding: 10px;
 	box-shadow: 3px 3px 5px gray;
-	display: none;
 }
 
 #box1 h4{
@@ -655,12 +681,12 @@ li a:hover{
 #box2{
 	height: 450px;
 	width: 300px;
-	z-index: 20;
 	position: absolute;
-	top: 270px; 
-	right: 140px;
+	top: 1100px;
+	left: 80px;
+	padding: 10px;
 	box-shadow: 3px 3px 5px gray;
-	display: none;
+
 }
 
 #box2 h4{
@@ -685,11 +711,11 @@ li a:hover{
 #box3{
 	height: 450px;
 	width: 300px;
-	z-index: 20;
 	position: absolute;
-	top: 340px; 
+	top: 1600px;
+	left: 80px;
+	padding: 10px;
 	box-shadow: 3px 3px 5px gray;
-	display: none;
 }
 
 #box3 h4{
@@ -713,12 +739,11 @@ li a:hover{
 #box4{
 	height: 450px;
 	width: 300px;
-	z-index: 20;
 	position: absolute;
-	top: 340px; 
-	right: 140px;
+	top: 2100px;
+	left: 80px;
+	padding: 10px;
 	box-shadow: 3px 3px 5px gray;
-	display: none;
 }
 
 #box4 h4{
@@ -742,10 +767,10 @@ li a:hover{
 #box5{
 	height: 450px;
 	width: 300px;
-	z-index: 20;
 	position: absolute;
-	top: 500px; 
-	display: none;
+	top: 2600px;
+	left: 80px;
+	padding: 10px;
 	box-shadow: 3px 3px 5px gray;
 
 }
@@ -771,11 +796,10 @@ li a:hover{
 #box6{
 	height: 450px;
 	width: 300px;
-	z-index: 20;
 	position: absolute;
-	top: 500px; 
-	right: 140px;
-	display: none;
+	top: 3100px;
+	left: 80px;
+	padding: 10px;
 	box-shadow: 3px 3px 5px gray;
 
 }
@@ -801,10 +825,10 @@ li a:hover{
 #box7{
 	height: 450px;
 	width: 300px;
-	z-index: 20;
 	position: absolute;
-	top: 620px; 
-	display: none;
+	top: 3600px;
+	left: 80px;
+	padding: 10px;
 	box-shadow: 3px 3px 5px gray;
 
 }
@@ -830,12 +854,12 @@ li a:hover{
 #box8{
 	height: 450px;
 	width: 300px;
-	z-index: 20;
 	position: absolute;
-	top: 620px; 
-	right: 140px;
-	display: none;
+	top: 4100px;
+	left: 80px;
+	padding: 10px;
 	box-shadow: 3px 3px 5px gray;
+
 
 }
 
@@ -860,18 +884,18 @@ li a:hover{
 
 #footerTree{
 	position: absolute;
-	top: 1100px;
+	top: 4600px;
 	margin: 0 auto;
 	height: 150px;
-	width: 77.9%;
+	width: 100%;
 	background: rgba(25, 25, 25, 1);
 }
 
 #navBarTree{
 	position: absolute;
-	top: 1100px;
+	top: 4600px;
 	height: 50px;
-	width: 77.9%;
+	width: 100%;
 	background: black;
 	z-index: 12;
 	margin: 0 auto;
@@ -880,7 +904,7 @@ li a:hover{
 }
 
 #navBarTree nav{
-	height: 50px;
+	height: 40px;
 	width: 600px;
 	position: absolute;
 	left: 0px;
@@ -898,6 +922,8 @@ li a:hover{
 	font-family: 'Open Sans Condensed', sans-serif;
 	padding: 15px;
 	font-size: 20px;
+	width: 27vw;
+	margin-top: 20px;
 }
 
 #copy{
@@ -934,7 +960,8 @@ li a:hover{
 /*Find*/
 #findMain{
 	position: absolute;
-	top: 160px;
+	top: 380px;
+	left: 60px;
 	margin: 0 auto;
 	width: 77.9%;
 	height: 50px;
@@ -953,7 +980,7 @@ li a:hover{
 
 #where{
 	position: absolute;
-	top: 80px;
+	top: 150px;
 	margin: 0 auto;
 	width: 100%;
 	height: 50px;
@@ -976,7 +1003,7 @@ select{
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 25px;
 	border-radius: 5px;
-	margin-left: 43%;
+	margin-left: 25%;
 	margin-top: 20px;
 
 }
@@ -984,7 +1011,7 @@ select{
 
 #comfort{
 	position: absolute;
-	top: 210px;
+	top: 290px;
 	margin: 0 auto;
 	width: 100%;
 	height: 50px;
@@ -1014,11 +1041,11 @@ select{
 
 button{
 	position: absolute;
-	top: 375px;
+	top: 445px;
 	margin: 0 auto;
 	width: 300px;
 	height: 50px;
-	margin-left: 36%;
+	margin-left: 10%;
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 30px;
 	border-radius: 5px;
@@ -1026,11 +1053,11 @@ button{
 
 #output{
 	height: 450px;
-	width: 77.6%;
+	width: 100%;
 	z-index: 20;
 	position: absolute;
-	top: 450px;
-	margin-left: 225px;
+	top: 520px;
+/*	margin-left: -800px;*/
 }
 
 
@@ -1256,7 +1283,7 @@ button{
 
 #activityPics{
 	position: absolute;
-	top: 280px;
+	top: 500px;
 	width: 77.9%;
 	height: 600px;
 	z-index: 11;
@@ -1265,14 +1292,9 @@ button{
 #Do1{
 	float: left;
 	height: 300px;
-	width: 414px;
+	width: 480px;
 	margin: 0 auto;
 	padding: 5px;
-}
-
-#Do1 img{
-	width: 100%;
-	
 }
 
 #Do2{
@@ -1357,12 +1379,20 @@ button{
 	left: 25px;
 }
 
+#footerTree2{
+	position: absolute;
+	top: 1800px;
+	margin: 0 auto;
+	height: 150px;
+	width: 100%;
+	background: rgba(25, 25, 25, 1);
+}
 
 #navBarTree2{
 	position: absolute;
-	top: 1100px;
+	top: 1800px;
 	height: 50px;
-	width: 77.9%;
+	width: 100%;
 	background: black;
 	z-index: 12;
 	margin: 0 auto;
@@ -1375,7 +1405,7 @@ button{
 	width: 600px;
 	position: absolute;
 	left: 0px;
-	top: -20px;
+	top: 0px;
 }
 
 #navBarTree2 nav ul{
@@ -1389,4 +1419,5 @@ button{
 	font-family: 'Open Sans Condensed', sans-serif;
 	padding: 15px;
 	font-size: 20px;
+	width: 26vw;
 }
